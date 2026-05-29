@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This is a modern, responsive, and highly optimized portfolio showcase built using React, Vite, Framer Motion, and Tailwind CSS themes. It features smooth scroll animations, glassmorphism cards, dynamic project showcases, and a working contact form.
 
-![Portfolio Preview](./public/assets/portfolio_preview.png)
+![Portfolio Preview](./public/assets/portfolio_home.png)
 
 ## 🚀 Live Demo
 
