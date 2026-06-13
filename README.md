@@ -1,76 +1,102 @@
-# Vivek Kotha | Personal Portfolio Website
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Vivek%20Kotha&fontSize=60&animation=fadeIn" alt="Header" />
 
-Welcome to my personal portfolio website! This is a modern, responsive, and highly optimized portfolio showcase built using React, Vite, Framer Motion, and Tailwind CSS themes. It features smooth scroll animations, glassmorphism cards, dynamic project showcases, and a working contact form.
+  <h1 align="center">Full-Stack AI & Backend Developer Portfolio</h1>
 
-![Portfolio Preview](./public/assets/portfolio_home.png)
+  <p align="center">
+    <b>A highly interactive, performance-optimized portfolio showcasing my journey in Machine Learning, Backend Architecture, and Automation.</b>
+  </p>
 
-## 🚀 Live Demo
-
-You can view the live site deployed on Netlify here:
-👉 **[https://papaya-biscuit-b3ac53.netlify.app/](https://papaya-biscuit-b3ac53.netlify.app/)**
-
----
-
-## 🛠️ Tech Stack & Key Features
-
-- **Frontend Core**: React 19 (JavaScript), Vite 8, HTML5, CSS3
-- **Animations**: Framer Motion (performance-optimized `whileInView` animations to prevent scroll lag)
-- **Icons**: React Icons (Fa, Si sets)
-- **Forms**: Netlify Forms integration for backend submissions with custom validation feedback
-- **Assets**: Personal resume and Cisco JavaScript certification documents integrated directly in the UI
+  <div align="center">
+    <a href="https://papaya-biscuit-b3ac53.netlify.app/"><img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-success?style=for-the-badge&logo=netlify" alt="Live Demo" /></a>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
+    <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue" alt="Framer Motion" />
+  </div>
+</div>
 
 ---
 
-## 📂 Project Sections
+## ⚡ What Makes This Portfolio Special?
 
-1. **Hero**: Headline greeting with a sleek portrait mockup.
-2. **About Me**: Professional bio detailing backend expertise, web technologies, and machine learning algorithms (specifically Classification & Regression models).
-3. **Education**: Undergrad academic background and details.
-4. **Resume**: Action buttons to preview and download the official resume PDF directly.
-5. **Coding Profiles**: LeetCode and GeeksforGeeks profiles with scale-up hover zoom effects.
-6. **Technical Skills**: Grouped pill badges for Languages, Frameworks, Databases, Tools, and Data Science / Machine Learning.
-7. **Featured Projects**: Interactive grid displaying major projects in order of depth:
-   - **AI Student Churn Prediction & Intervention (Using ML Algo)** (Live: [Render App](https://churn-prediction-interention-4.onrender.com/))
-   - **Zuggled Dating Application**
-   - **Automated Email Referral & HR Tracker**
-   - **Job Scheduled Tasks Dashboard**
-   - **SmartCopyBot**
-8. **Experience**: Professional backend trainee & intern history.
-9. **Certifications**: Awards listing including the Cisco JavaScript Essentials 1 badge.
-10. **Contact**: Fully working message form integrated with Netlify forms backend.
+This isn't just a static resume. It is a fully engineered React application built to shock viewers with its fluidity and design:
+
+*   🌌 **Glassmorphism UI:** Frosted glass aesthetic paired with an ultra-modern dark theme.
+*   🎭 **Scroll-Triggered Micro-Animations:** Built with `Framer Motion` to reveal elements dynamically via `whileInView` observers—without sacrificing 60fps performance.
+*   🚀 **Vite HMR Optimization:** Cold starts in milliseconds and ultra-fast production builds.
+*   📬 **Serverless Form Backend:** Native integration with Netlify Forms for instant, backend-less contact routing.
 
 ---
 
-## 💻 How to Clone & Run Locally
+## 🛠️ Technical Arsenal
 
-Follow these steps to run the portfolio on your local machine:
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,express,mongodb,python,git,postman,vscode&perline=11" />
+</div>
 
-### 1. Clone the Repository
+<br>
+
+| Domain | Technologies Mastered |
+| :--- | :--- |
+| **Frontend Engineering** | React 19, JavaScript (ES6+), HTML5, CSS3, Tailwind Concepts |
+| **Backend Architecture** | Node.js, Express.js, RESTful APIs, EJS Templating |
+| **Data & Automation** | MongoDB, Firebase Firestore, SQL, Make (Integromat), Node-Cron |
+| **AI & Machine Learning** | Python, Pandas, Scikit-learn, XGBoost, Gradio, Classification Models |
+
+---
+
+## 🚀 Featured Masterpieces
+
+My projects are built to solve real-world problems. Here are the highlights featured on the site:
+
+### 1. AI School Intelligence Platform 🏫
+A dual-stack enterprise dashboard predicting student churn using Random Forest and forecasting future revenue using XGBoost. *Features an automated Twilio WhatsApp bot for parent interventions.*
+**(Live on Render)**
+
+### 2. Zero-Cost HR Automation Ecosystem 🤖
+An entirely free webhook pipeline built with `Make` that automates personalized email sending with resumes, and filters incoming Gmails to send instant Telegram push notifications when a real HR replies.
+
+### 3. Zuggled Dating Application 💖
+A highly interactive, scalable full-stack application connecting users seamlessly.
+
+### 4. CronGenix Autonomous Scheduler ⚙️
+A Node.js microservice handling backend cleanup, stale-user reporting, and automated session invalidations on custom schedules.
+
+---
+
+## 🎓 Education & Certifications
+
+*   **B.Tech in CSE (AI & Machine Learning)** - CMR College of Engineering & Technology (2022 - 2026)
+*   **Cisco Certified** - JavaScript Essentials 1
+
+---
+
+## 💻 Developer Quick Start
+
+Want to run this spectacular portfolio on your local machine?
+
 ```bash
+# 1. Clone the master repository
 git clone https://github.com/KOTHAVIVEK55/Portfolio.git
-```
 
-### 2. Navigate to the Directory
-```bash
+# 2. Enter the workspace
 cd Portfolio
-```
 
-### 3. Install Dependencies
-Make sure you have Node.js installed. Install the packages from the public npm registry:
-```bash
+# 3. Install packages via NPM
 npm install --registry=https://registry.npmjs.org
-```
 
-### 4. Start the Local Server
-Launch the Vite development server:
-```bash
+# 4. Ignite the Vite Dev Server
 npm run dev
 ```
-Open **[http://localhost:5173/](http://localhost:5173/)** in your web browser.
+👉 Open your browser to `http://localhost:5173/` and prepare to be amazed.
 
-### 5. Build for Production
-To compile and bundle optimized static assets for deployment:
-```bash
-npm run build
-```
-The compiled output will be generated inside the `dist/` directory, ready to be uploaded directly to hosts like Netlify or Vercel.
+---
+
+<div align="center">
+  <h3>Let's Build Something Incredible Together.</h3>
+  <a href="mailto:kothavivek55@gmail.com"><img src="https://img.shields.io/badge/kothavivek55%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/vivekkotha/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  
+  <br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
+</div>
