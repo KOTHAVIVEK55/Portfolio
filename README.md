@@ -8,7 +8,7 @@
   </p>
 
   <div align="center">
-    <a href="https://papaya-biscuit-b3ac53.netlify.app/"><img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-success?style=for-the-badge&logo=netlify" alt="Live Demo" /></a>
+    <a href="https://portfolio-topaz-ten-hl4av5bevj.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-black?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
     <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
     <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue" alt="Framer Motion" />
