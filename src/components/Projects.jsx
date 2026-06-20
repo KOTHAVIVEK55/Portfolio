@@ -10,7 +10,7 @@ const Projects = () => {
       tech: "Python, Machine Learning, Pandas, Scikit-Learn, Flask",
       desc: "An intelligent system that predicts student dropout rates using machine learning models and enables automated intervention strategies to improve retention.",
       github: "https://github.com/KOTHAVIVEK55/Churn-Prediction-Interention",
-      live: "https://churn-prediction-intervention-vaat.vercel.app/"
+      live: "https://churn-prediction-intervention-omj2.vercel.app/"
     },
     {
       title: "Zuggled Dating Application",
