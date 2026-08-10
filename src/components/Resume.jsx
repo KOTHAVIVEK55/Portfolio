@@ -20,10 +20,10 @@ const Resume = () => {
                 Review my detailed professional experience, academic background, certifications, and technical skills in the official resume document.
               </p>
               <div className="resume-buttons">
-                <a href="/assets/fresume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn primary">
+                <a href="/assets/fresume.pdf?v=2" target="_blank" rel="noopener noreferrer" className="resume-btn primary">
                   <ExternalIcon size={16} /> View PDF
                 </a>
-                <a href="/assets/fresume.pdf" download="Vivek_Kotha_Resume.pdf" className="resume-btn secondary">
+                <a href="/assets/fresume.pdf?v=2" download="Vivek_Kotha_Resume.pdf" className="resume-btn secondary">
                   <DownloadIcon size={16} /> Download
                 </a>
               </div>

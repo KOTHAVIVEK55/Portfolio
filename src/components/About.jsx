@@ -10,9 +10,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text-container glass-card">
             <p className="about-bio">
-              I am a passionate Backend Developer and Data Science/ML enthusiast in my final year of B.Tech based in Hyderabad.
-              I specialize in building scalable, real-time backend systems, constructing robust cloud-based APIs, and automating workflows.
-              I have a strong expertise in applying Machine Learning algorithms, specifically Classification and Regression models, to solve complex real-world prediction tasks and drive data-driven decision-making.
+              I am a final year student at CMRCET. Engineer who builds both sides of the stack: low-latency backend systems (Node.js, Firestore, cron-based infra) and applied ML pipelines (Scikit-learn, XGBoost) trained on real production data, not toy datasets. Shipped systems handling real-time state sync, secure billing logic, and churn prediction deployed to live users.
             </p>
             <p className="about-bio">
               With a solid foundation in web technologies and predictive analytics, I aim to build high-performance backend systems integrated with intelligent machine learning capabilities. I am currently looking for opportunities where I can contribute to impactful production projects.

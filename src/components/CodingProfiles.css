@@ -80,3 +80,26 @@
     display: none;
   }
 }
+
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.profile-tag {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover .profile-tag {
+  border-color: var(--hover-color);
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.1);
+}

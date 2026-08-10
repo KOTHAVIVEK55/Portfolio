@@ -6,6 +6,11 @@ import ScrollSection from './ScrollSection';
 const Certifications = () => {
   const certifications = [
     {
+      title: "Oracle Cloud Infrastructure AI Foundation Associate",
+      issuer: "Oracle",
+      link: "/assets/oracle_ai_foundation.pdf"
+    },
+    {
       title: "Evangelion Intern Completion (Backend Intern)",
       issuer: "Evangelion Solutions",
       link: "/assets/Final intern complete.pdf"

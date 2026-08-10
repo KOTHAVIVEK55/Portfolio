@@ -12,7 +12,7 @@ const CodingProfiles = () => {
       link: "https://leetcode.com/u/kothavivek55/",
       icon: LeetCode,
       color: "#FFA116",
-      stats: "Solved 220+ problems with focus on arrays, strings, and fundamental algorithms."
+      tags: ["Problem Solving", "Algorithms"]
     },
     {
       name: "GeeksforGeeks",
@@ -20,7 +20,7 @@ const CodingProfiles = () => {
       link: "https://www.geeksforgeeks.org/user/kothavivek55/",
       icon: Gfg,
       color: "#2F8D46",
-      stats: "Solved 220+ problems, strengthening data structures and problem-solving fundamentals."
+      tags: ["Data Structures", "Algorithms"]
     }
   ];
 
@@ -46,7 +46,11 @@ const CodingProfiles = () => {
                 <div className="profile-content">
                   <h3>{profile.name}</h3>
                   <p className="profile-handle">@{profile.handle}</p>
-                  <p className="profile-stats">{profile.stats}</p>
+                  <div className="profile-tags">
+                    {profile.tags.map((tag, i) => (
+                      <span key={i} className="profile-tag">{tag}</span>
+                    ))}
+                  </div>
                 </div>
                 <div className="profile-action">
                   <ExternalIcon size={18} />
